@@ -32,7 +32,29 @@
                 <h4>Billing details</h4>
                 <form action="">
                     <div class="mb-3">
-                        label
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" name="name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Phone Number</label>
+                        <input type="text" name="phone" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Address</label>
+                        <textarea name="phone" class="form-control"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Payment Method</label>
+                        <select class="form-select" name="payment">
+                            <option>Cash on delivery</option>
+                            <option>Online</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-success">confirm order</button>
                     </div>
                 </form>
             </div>
